@@ -1,0 +1,2 @@
+model_checkpoint_path: "oss://maozhen/7.6/model/model_y/model.ckpt"
+all_model_checkpoint_paths: "oss://maozhen/7.6/model/model_y/model.ckpt"
