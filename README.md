@@ -13,11 +13,11 @@ y, and we can modify z and y to re-generate the original image with complex vari
   * y_loss = l2_loss(y-eny(x))
 
 ### architecture
-<img src=https://github.com/zhenmao720/GanPlayGround/blob/master/icgan/icgan_architecture.png>  
+<img src=https://github.com/poetic1912/ML_project/icgan_architecture.png>  
 
 image source:[ICGAN Paper](https://arxiv.org/abs/1611.06355)
 
 ### result
 <div align=center>
-<img src=https://github.com/zhenmao720/GanPlayGround/blob/master/icgan/result.jpg>
+<img src=https://github.com/poetic1912/ML_project/result.jpg>
 </div>
