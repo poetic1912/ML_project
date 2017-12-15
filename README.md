@@ -1,6 +1,6 @@
-# Change Attribute of Face Image with Generative Adversarial Network
+# Change Attribute of Face Image with GAN
 ## Data set
-i choose the first 40000 Align&Cropped Images in [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) for training with their gender attribute  
+We choose the first 40000 Align&Cropped Face Images in [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) for training with their gender attribute  
 
 ## ICGAN
 [ICGAN](https://arxiv.org/abs/1611.06355) introduce an encoder to determine specific representation of generated images, which 
