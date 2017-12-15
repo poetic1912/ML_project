@@ -1,5 +1,9 @@
-# ICGAN
-[ICGAN](https://arxiv.org/abs/1611.06355) introduce an encoder to determine specfic representation of generated images, which 
+# Change Attribute of Face Image with Generative Adversarial Network
+## Data set
+i choose the first 40000 Align&Cropped Images in [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) for training with their gender attribute  
+
+## ICGAN
+[ICGAN](https://arxiv.org/abs/1611.06355) introduce an encoder to determine specific representation of generated images, which 
 inverse the mapping of cGAN, given an input image x, to obtain its representation as a latent variable z and a conditional vector 
 y, and we can modify z and y to re-generate the original image with complex variations.
 
@@ -21,3 +25,5 @@ image source:[ICGAN Paper](https://arxiv.org/abs/1611.06355)
 <div align=center>
 <img src=https://github.com/poetic1912/ML_project/blob/master/result.jpg>
 </div>
+
+
