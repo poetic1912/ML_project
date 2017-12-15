@@ -527,9 +527,9 @@ z_model_path = os.path.join(os.getcwd()+"/model_z/")
 
 
 log_dir = os.path.join(os.getcwd()+"/logs/")
-train_gan(train_path, model_path, log_dir)
 train_enz(model_path, z_model_path)
 train_eny(train_path, y_model_path)
+train_gan(train_path, model_path, log_dir)
 
 test(test_path, y_model_path, z_model_path, model_path, log_dir)
 
@@ -541,9 +541,9 @@ test(test_path, y_model_path, z_model_path, model_path, log_dir)
 #     y_model_path = os.path.join(FLAGS.checkpointDir, "model_y/")
 #     z_model_path = os.path.join(FLAGS.checkpointDir, "model_z/")
 #     log_dir = os.path.join(FLAGS.checkpointDir, "logs")
-#     # train_gan(train_path, model_path, log_dir)
 #     # train_eny(train_path, y_model_path)
 #     # train_enz(model_path, z_model_path)
+#     # train_gan(train_path, model_path, log_dir)
 #     test(test_path, y_model_path, z_model_path, model_path, log_dir)
 
 # if __name__ == '__main__':
