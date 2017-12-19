@@ -1,4 +1,7 @@
 # Change Attribute of Face Image with GAN
+## Important
+We have introduce and analysis our project more detail in ML_project.ppt
+
 ## Data set
 We choose the first 40000 Align&Cropped Face Images in [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) for training with their gender attribute  
 
